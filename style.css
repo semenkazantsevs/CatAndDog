@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu {
+    box-shadow: 10px 0px 30px rgb(0, 0, 0);
+    background-color: darkorange;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 250px;
+}
+
+.content {
+    width: calc(100% - 250px);
+    margin-left: 250px
+}
+
+body {
+    background-image: url("fly.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    width: 80%;
+    height: 700px;
+    object-fit: cover;
+    box-shadow: 11px 20px 20px rgb(80, 78, 78);
+    border-radius: 60px;
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+img:nth-child(2) {
+    object-position: top;
+}
+
+img:nth-child(10) {
+    height: 950px;
+}
+
+img:nth-child(12) {
+    object-position: top;
+}
+
+h2 {
+    font-size: 111px;
+    color: greenyellow;
+    text-shadow: 10px 15px 10px black;
+    margin-bottom: 35px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+h1{
+    color: greenyellow;
+    text-shadow: 0px 5px 10px black;
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Lobster', cursive;
+}
+a{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 10px 0px;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+a:hover{
+    color: gold;
+    transform: translateX(10px);
+}
